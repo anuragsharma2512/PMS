@@ -1,10 +1,10 @@
-export const UserTolesEnnum ={
+export const UserRolesEnnum ={
     ADMIN: "admin",
     PROJECT_ADMIN: "project_admin",
     MEMBER: "member",
 }
 
-export const AvailableUserToles = Object.values(UserTolesEnnum);
+export const AvailableUserRole = Object.values(UserRolesEnnum);
 
 export const TaskStatusEnnum ={
     TODO: "todo",
